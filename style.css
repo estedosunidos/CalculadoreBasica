@@ -1,0 +1,80 @@
+body{
+    background-image: url("./philippe-ramakers-GEc9p9avZP8-unsplash.jpg");
+}
+.principal {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin: 65px auto;
+  max-width: 400px;
+  border-radius: 50px;
+  background-color: #887675;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.titulo {
+  font-size: 1.2rem;
+  text-align: center;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.pantalla {
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 70%;
+  padding: 10px;
+  font-size: 24px;
+  text-align: right;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.container {
+  text-align: center;
+  margin-top: 20px;
+  line-height: 20px;
+}
+
+.button {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  border: 2px dotted  #ccc;
+  cursor: pointer;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 50%;
+  background-color: #e1e1e1;
+  transition: background-color 0.3s ease;
+  color:darkslategrey;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color:rgba(184, 135, 11, 0.411);
+}
+
+.buttonIGUAL {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  text-align: center;
+  font-size: 24px;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.buttonIGUAL:hover {
+  background-color: #2c6fde;
+}
